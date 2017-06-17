@@ -1,0 +1,119 @@
+*{
+	font-family: "Dancing Script", cursive;
+}
+body{
+	background-color: #02010a;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #5b7989;
+	width: 900px;
+	height: 100px;
+	margin: auto;
+	border-radius: 10px 10px 0 0;
+}
+.Encabezado{
+	display: inline-block;
+}
+.Titulo{
+	color: white;
+	padding-left: 15px;
+	text-shadow: 2px 2px 2px #02010a;
+}
+#Menu{
+	float: right;
+	padding-top: 2.5vh;
+	padding-right: 30px;
+}
+#Menu ul li{
+	display: inline-block;
+	margin: 0 6px;
+	list-style: none;
+}
+#Menu ul li a{
+	color: white;
+	font-size: 1.2em;
+}
+#Menu ul li a:hover{
+	color: #C6d5c5;
+}
+#Menu ul li a:active{
+	color: black;
+	font-size: 1.5em;
+}
+.Activo{
+	text-decoration: none;
+}
+.Contenedor{
+	width: 900px;
+	margin: auto;
+}
+.Central{
+	background-color: #82c3a6;
+	padding: 15px;
+}
+#Central{
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px #02010a;
+	-webkit-box-shadow: 2px 2px 2px #02010a;
+	-moz-box-shadow: 2px 2px 2px #02010a;
+}
+.Secundarias{
+	background-color: #d5c75f;
+	border-style: solid;
+	border: 2px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+#Paisajes{
+	width: 100%;
+	transition: 0.5s;
+	box-shadow: 4px 4px 2px #82c3a6;
+	-webkit-box-shadow: 4px 4px 2px #82c3a6;
+	-moz-box-shadow: 4px 4px 2px #82c3a6;
+}
+#Paisajes:hover{
+	transform: rotateZ(10deg);
+}
+#Retratos{
+	width: 100%;
+	box-shadow: 4px 4px 2px #82c3a6;
+	-webkit-box-shadow: 4px 4px 2px #82c3a6;
+	-moz-box-shadow: 4px 4px 2px #82c3a6;
+}
+#Retratos:hover{
+	transform: translate3d(20px,5px,0);
+}
+figure {
+	text-align: center;
+}
+figcaption a{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+figcaption a:hover{
+	color: #82c3a6;
+}
+footer{
+	margin: auto;
+	background-color: #C6d5c5;
+	width: 900px;
+	border-radius: 0 0 10px 10px;
+}
+footer div{
+	margin: 0 auto;
+	padding: 10px;
+}
+.Pie{
+	display: flex;
+	flex-wrap: nowrap;
+}
+h2{
+	font-size: 1.2em;
+}
